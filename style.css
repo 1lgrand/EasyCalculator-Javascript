@@ -1,0 +1,39 @@
+body{
+    background-color: #464746;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+table{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.btn{
+    width: 120px;
+    height: 70px;
+    background-color: #a0285a;
+    text-align: center;
+    font-size: 21px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    background-color: #631837;
+}
+
+.display{
+    margin: 0 auto;
+    display: flex;
+    width: 490px;
+    height: 130px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #000000;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <h1>Simple Calculator</h1>
+
+    <form name="formCalculator">
+        <table>
+            <tr>
+                <input type="text" class="display" name="display" disabled>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="1" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="2" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="3" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="+" onclick="calculator(this.value,display)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="4" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="5" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="6" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="-" onclick="calculator(this.value,display)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="7" onclick="calculator(this.value,display)" ></td>
+                <td><input type="button" class="btn" value="8" onclick="calculator(this.value,display)" ></td>
+                <td><input type="button" class="btn" value="9" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="*" onclick="calculator(this.value,display)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="C" onclick="clearDisplay(display)"></td>
+                <td><input type="button" class="btn" value="0" onclick="calculator(this.value,display)"></td>
+                <td><input type="button" class="btn" value="=" onclick="viewResult(display)"></td>
+                <td><input type="button" class="btn" value="/" onclick="calculator(this.value,display)"></td>
+            </tr>
+        </table>
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
